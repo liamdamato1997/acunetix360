@@ -4,7 +4,6 @@ version: 2.1
 orbs:
   # Declare a dependency on the welcome-orb
  acunetix360: acunetix-360/acunetix-360@1.1.3
-# Orchestrate or schedule a set of jobs
 
 workflows:
   scan-workflow:
@@ -13,4 +12,5 @@ workflows:
           website_id: 321e6e85-f0bb-4d7e-3d78-ab4b01d4186f
           api_url: https://online.acunetix360.com
           # If scan_type is "FullWithPrimaryProfile", you do not need to fill in scanProfile_id.
+          scanProfile_id: 1db4edb4-3639-4ef2-598d-ab4b01efde18 
           scan_type: FullWithPrimaryProfile
