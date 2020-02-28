@@ -13,4 +13,5 @@ workflows:
           api_url: https://online.acunetix360.com
           # If scan_type is "FullWithPrimaryProfile", you do not need to fill in scanProfile_id.
           scanProfile_id: 1db4edb4-3639-4ef2-598d-ab4b01efde18 
-          scan_type: FullWithPrimaryProfile
+          scan_type: Incremental
+          
