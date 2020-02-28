@@ -10,4 +10,4 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcome/run
+      api_url: https://online.acunetix360.com , website_id: 321e6e85-f0bb-4d7e-3d78-ab4b01d4186f ,  scan_type: FullWithPrimaryProfile
